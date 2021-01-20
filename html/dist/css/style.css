@@ -1,0 +1,118 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    width: 100%;
+    background-color: #1e77a6;
+    height: 77px;
+    margin-bottom: 26px;
+
+}
+
+header h1{
+    width: 944px;
+    margin: 0 auto;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    line-height: 1.7;
+    color: white;
+}
+
+h2 #mainContent  {
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.infoHeader{
+    font-size: 23px;
+    color: #f99d1c;
+    text-align: left;
+ /*   width: 944px;*/
+}
+
+.headerSecondBox {
+    padding-top: 23px;
+    padding-bottom: 0px;
+}
+
+
+#preMain {
+    width: 944px;
+    margin: 0 auto;
+    /*background-color: yellowgreen;*/
+    margin-bottom: 34px;
+ }
+
+ #mainBox {
+    width: 878px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    padding-left: 33px;
+    padding-right: 33px;
+ }
+
+ #roundBoxDiagram {
+     width: 100%;
+     height: 263px; 
+     background-color: white;
+     border: #d4d4d4 solid 1px;
+     border-radius: 5px;
+     padding: 0;
+     margin: 0 auto;
+     padding-top: 3px;
+     text-align: center;
+ }
+
+ #diagramImage1{
+     float: left;
+     width: 181px;
+     height: 253px;
+     margin: 0;
+     padding: 0;
+     margin-left: 20px;
+     
+ }
+
+ #diagramImage2{
+    float: left;
+    width: 349px;
+    height: 253px;
+    margin: 0;
+    padding: 0;
+}
+
+#diagramImage3{
+    float: left;
+    width: 283px;
+    height: 253px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.outer {
+    width: 300px;
+    height: 250px;
+    margin: 50px auto;
+    padding-top: 50px;
+    background-color: black;
+}
+.inner {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+
+
+
+
