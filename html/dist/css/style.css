@@ -96,23 +96,80 @@ h2 #mainContent  {
     padding: 0;
 }
 
-
-
-.outer {
-    width: 300px;
-    height: 250px;
-    margin: 50px auto;
-    padding-top: 50px;
-    background-color: black;
+#mainContentTitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #888888;
+    font-size: 32px;
+    font-weight: 100;
 }
-.inner {
-    width: 200px;
-    height: 200px;
+
+#mainBoxContent {
+    width: 100%;
+    height: 650px; 
+    background-color: white;
+    border: #d4d4d4 solid 1px;
+    border-radius: 5px;
+    padding: 0;
     margin: 0 auto;
+    padding-top: 3px;
+    text-align: center;
+}
+
+
+#contentOne {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 435px;
+    height: 614px;
     background-color: yellow;
 }
 
+#contentTwo {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 435px;
+    height: 614px;
+    background-color: yellowgreen;
+}
 
+.iconImage {
+    vertical-align: middle;
+    margin-right: 5px;
+    line-height: 2;
+  }
+.iconText {
+    line-height: 2;
+    vertical-align: middle;
+    background-color: #f99d1c;
 
+}
 
+#blueTitle {
+    color:#359ac0;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+}
 
+.linkDocument {
+    color:#359ac0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.yellowButton {
+    color: white;
+    background-color: #fdaf1e;
+    width: 287px;
+    height: 56px;
+    text-align: center;
+    vertical-align: middle;
+    border: 0ch;
+}
+
+.bySwdc {
+    color: #fdaf1e;
+}
