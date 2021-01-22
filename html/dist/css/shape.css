@@ -124,7 +124,8 @@ p {
 .diagramOne{
     width:181px;
     float: left;
-    margin: 0;
+    
+    margin: 0 0 0 35px;
     padding: 0;
 }
 
@@ -136,11 +137,39 @@ p {
 .diagramThree{
     width:283px;
     float: left;
+
 }
 
 .diagramArrow{
     width: 66px;
     float: left;
+}
+
+.diagramContent{
+    width: 217px;
+    float: left;
+    text-align: left;
+    color:#888;
+    font-style: italic;
+    font-size: 12px;
+    vertical-align: middle;
+    align-items:center;
+}
+
+
+.iconBox{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    float: left;
+}
+
+.boxItem{
+    float: left;
+    margin: 0 0 10px 0px;
+    padding: 0;
+    width: 100%;
+  
 }
 
 .infoHeader{
@@ -184,6 +213,7 @@ p {
     border-radius: 5px;
      z-index:10; 
     position: relative;
+
  }
 
  #selectorLeft{
@@ -390,4 +420,28 @@ a:link {
   
   a:active {
     color:#359ac0;
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 990px) {
+
+       /* Styles */
+       #roundSelector {
+        width: 95%;
+        background-color: darkseagreen;
+        }
+
+
+        main {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            position:absolute;
+            left: 0; 
+            right: 0;
+            margin-bottom: 30px;
+        
+        }
+
   }
