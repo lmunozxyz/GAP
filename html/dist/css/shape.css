@@ -10,8 +10,36 @@ main {
     width: 951px;
     height: auto;
     margin: 0 auto;
-    background-color: darkkhaki;
+    position:absolute;
+    left: 0; 
+    right: 0;
+    margin-bottom: 30px;
+
 }
+
+header {
+    width: 100%;
+    background-color: #1e77a6;
+    height: 77px;
+    margin-bottom: 26px;
+}
+
+header h1 {
+    width: 944px;
+    margin: 0 auto;
+    vertical-align: middle;
+    font-weight:800;
+    font-size: 45px;
+    line-height: 1.7;
+    color: white;
+    text-shadow: 1px 1px 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 0;
+}
+
 
 #shapeBox {
     width: 941px;
@@ -19,6 +47,12 @@ main {
     background-color: #ebebeb;
     border-radius: 5px 0px 5px 0px;
     margin-left: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.sep{
+    margin-bottom: 20px;
 }
 
 #leftShape {
@@ -29,9 +63,10 @@ main {
    margin: 0;
    padding: 0;
    border-radius: 5px 0px 0px 5px;
-   background-color:darkmagenta;
-   bottom:0;
+   background-color: #ebebeb;
+   bottom:0px;
    position:absolute;
+   margin-bottom: 20px;
 }
 
 #rightShape {
@@ -41,48 +76,25 @@ main {
     margin: 0;
     padding: 0;
     border-radius: 0px 5px 5px 0px;
-    /*background-color: #ebebeb;*/
-    background-color: darkorange;
+    background-color: #ebebeb;
 }
 
-header {
+#preMain {
     width: 100%;
-    background-color: #1e77a6;
-    height: 77px;
-    margin-bottom: 26px;
-}
-
-header h1 {
-    width: 944px;
     margin: 0 auto;
-    vertical-align: middle;
-    font-weight:800;
-    font-size: 45px;
-    line-height: 1.7;
-    color: white;
-    text-shadow: 1px 1px 5px white, 0 0 5px white, 0 0 5px white;
+    margin-bottom: 34px;
+    padding-left: 5px;
+
+ }
+
+ .infoHeader{
+    font-size: 23px;
+    color: #f99d1c;
+    text-align: left;
+ /*   width: 944px;*/
+    font-weight:400;
+    margin-bottom: 4px;
 }
-
-
-header {
-    width: 100%;
-    background-color: #1e77a6;
-    height: 77px;
-    margin-bottom: 26px;
-}
-
-header h1 {
-    width: 944px;
-    margin: 0 auto;
-    vertical-align: middle;
-    font-weight:800;
-    font-size: 45px;
-    line-height: 1.7;
-    color: white;
-    text-shadow: 1px 1px 5px white, 0 0 5px white, 0 0 5px white;
-}
-
-
 
 .extraBold{ /* you can also name this rbt-light or whatever you like*/
     font-weight:800;
@@ -95,26 +107,41 @@ header h1 {
     font-weight:400;
 }
 
-
-p {
-    font-size: 14px;
-    margin-top: 0;
-}
-
-
-
-
-
-
-h2 #mainContent  {
+#roundBoxDiagram {
+    width: 880px;
+    height: 263px; 
+    background-color: white;
+    border: #d4d4d4 solid 1px;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 3px;
     text-align: center;
-    background-color: yellowgreen;
-    top: 00px;
+    margin-left: 32px;
+    margin-right: 28px;
 }
 
+.diagramOne{
+    width:181px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
 
+.diagramTwo{
+    width:349px;
+    float: left;
+}
 
+.diagramThree{
+    width:283px;
+    float: left;
+}
 
+.diagramArrow{
+    width: 66px;
+    float: left;
+}
 
 .infoHeader{
     font-size: 23px;
@@ -128,17 +155,15 @@ h2 #mainContent  {
 .headerSecondBox {
     padding-top: 18px;
     padding-bottom: 9px;
+    margin-left: 35px;
 }
 
-
- .premain {
+.premain {
     width: 946px;
     margin: 0 auto;
     margin-bottom: 34px;
     padding-left: 25px;
  }
-
-
 
  #mainBox {
     width: 878px;
@@ -148,29 +173,16 @@ h2 #mainContent  {
     padding-right: 33px;
  }
 
- #roundBoxDiagram {
-     width: 100%;
-     height: 263px; 
-     background-color: white;
-     border: #d4d4d4 solid 1px;
-     border-radius: 5px;
-     padding: 0;
-     margin: 0 auto;
-     padding-top: 3px;
-     text-align: center;
- }
-
  #roundSelector {
-    top:40px;
     width: 694px;
-    height: 75px;
+    height: 75px;   
     margin: 0 auto;
     background-color: #fff;
     padding-left: 33px;
     padding-right: 33px;
     border: #d4d4d4 solid 1px;
     border-radius: 5px;
-    z-index:10;
+     z-index:10; 
     position: relative;
  }
 
@@ -180,6 +192,7 @@ h2 #mainContent  {
      vertical-align: middle;
      width: 345px;
      color: #359ac0;
+     font-weight:600;
      font-size: 19px;
      text-align: center;
  }
@@ -226,13 +239,14 @@ h2 #mainContent  {
     color: #888888;
     font-size: 32px;
     font-weight: 400;
-    bottom:-50px;
+    bottom:-15px;
     position: relative;
+    margin-top: 15px;
 }
 
 #mainBoxContent {
-    width: 100%;
-    height: 650px; 
+    width: 880px;
+    height: 730px; 
     background-color: white;
     border: #d4d4d4 solid 1px;
     border-radius: 5px;
@@ -240,10 +254,17 @@ h2 #mainContent  {
     margin: 0 auto;
     padding-top: 55px;
     text-align: center;
+    margin-left: 28px;
+    margin-right: 32px;
+    position: relative;
+    bottom: 40px;
+  
 }
 
 #contentTwo p {
     text-align: left;
+    font-size: 15px;
+    color:#888;
 }
 
 
@@ -282,7 +303,6 @@ h2 #mainContent  {
     line-height: 41px;
     vertical-align: middle;
     background-color: #f99d1c;
-
 }
 ul{
     list-style-type: none;
@@ -293,17 +313,47 @@ li {
     margin: 0;
   }
 
+
+.listItem {
+    height: 56px;
+    display: flex;
+    align-items:center;
+    text-align: left;
+    color:#888;
+    font-style: italic;
+} 
+
+.iconX{
+    width: 41px;
+    height: 41px;
+    margin-right: 5px;
+}
+
 #blueTitle {
     color:#359ac0;
     font-size: 18px;
     font-weight: 100;
     text-align: left;
+    margin-bottom: 0;
 }
 
 .linkDocument {
     color:#359ac0;
-    text-align: center !important;
+    text-align: right !important;
     text-decoration: underline;
+    vertical-align: text-top;
+}
+
+.whitePaper {
+    height: 56px;
+    display: flex;
+    align-items:top;
+    margin-top: 33px;
+}
+
+.whitePaperIcon{
+    margin-right: 5px;
+
 }
 
 .yellowButton {
@@ -314,10 +364,11 @@ li {
     text-align: center;
     vertical-align: middle;
     border: 0ch;
+    margin-top: 37px;
 }
 
 .bySwdc {
-    color: #fdaf1e;
+    color: #fdaf1e !important;;
     text-align: center !important;
 }
 
@@ -325,22 +376,18 @@ footer {
     margin-bottom: 30px;
 }
 
-
 a:link {
-    color: red;
+    color:#359ac0;
   }
-  
 
   a:visited {
-    color: green;
+    color:#359ac0;
   }
   
-
   a:hover {
-    color: hotpink;
+    color:#359ac0;
   }
   
-
   a:active {
-    color: blue;
+    color:#359ac0;
   }

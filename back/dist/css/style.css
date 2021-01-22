@@ -4,45 +4,7 @@ body {
     margin: 0 auto;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-}
 
-main {
-    width: 951px;
-    height: auto;
-    margin: 0 auto;
-    background-color: darkkhaki;
-}
-
-#shapeBox {
-    width: 941px;
-    float: left;
-    background-color: #ebebeb;
-    border-radius: 5px 0px 5px 0px;
-    margin-left: 5px;
-}
-
-#leftShape {
-   width: 5px;
-   height: 589px;
-   float: left;
-   margin: -5px;
-   margin: 0;
-   padding: 0;
-   border-radius: 5px 0px 0px 5px;
-   background-color:darkmagenta;
-   bottom:0;
-   position:absolute;
-}
-
-#rightShape {
-    width: 5px;
-    height: 589px;
-    float: left;
-    margin: 0;
-    padding: 0;
-    border-radius: 0px 5px 5px 0px;
-    /*background-color: #ebebeb;*/
-    background-color: darkorange;
 }
 
 header {
@@ -50,36 +12,20 @@ header {
     background-color: #1e77a6;
     height: 77px;
     margin-bottom: 26px;
+
 }
 
 header h1 {
     width: 944px;
     margin: 0 auto;
     vertical-align: middle;
+
     font-weight:800;
     font-size: 45px;
     line-height: 1.7;
     color: white;
     text-shadow: 1px 1px 5px white, 0 0 5px white, 0 0 5px white;
-}
 
-
-header {
-    width: 100%;
-    background-color: #1e77a6;
-    height: 77px;
-    margin-bottom: 26px;
-}
-
-header h1 {
-    width: 944px;
-    margin: 0 auto;
-    vertical-align: middle;
-    font-weight:800;
-    font-size: 45px;
-    line-height: 1.7;
-    color: white;
-    text-shadow: 1px 1px 5px white, 0 0 5px white, 0 0 5px white;
 }
 
 
@@ -128,17 +74,21 @@ h2 #mainContent  {
 .headerSecondBox {
     padding-top: 18px;
     padding-bottom: 9px;
+
+
 }
 
 
- .premain {
-    width: 946px;
+#preMain {
+    width: 941px;
     margin: 0 auto;
+    /*background-color: yellowgreen;*/
     margin-bottom: 34px;
-    padding-left: 25px;
  }
 
-
+ #premain.p {
+     color: #555;
+ }
 
  #mainBox {
     width: 878px;
@@ -324,23 +274,3 @@ li {
 footer {
     margin-bottom: 30px;
 }
-
-
-a:link {
-    color: red;
-  }
-  
-
-  a:visited {
-    color: green;
-  }
-  
-
-  a:hover {
-    color: hotpink;
-  }
-  
-
-  a:active {
-    color: blue;
-  }
